@@ -1,0 +1,25 @@
+#Set up the notebook
+
+from learntools.core import binder
+binder.bind(globals())
+from learntools.intro_to_programming.ex1 import *
+print('Setup complete.')
+
+#Question 1 so you can see how it works for yourself.
+print("Hello, world!")
+
+#Question 4 
+
+num_years = 4
+days_per_year = 365 
+hours_per_day = 24
+mins_per_hour = 60
+secs_per_min = 60
+
+total_secs = secs_per_min * mins_per_hour * hours_per_day * days_per_year * num_years
+print(total_secs)
+
+births_per_min = 250
+birth_per_hour=250*60
+
+births_per_day = 24*birth_per_hour
